@@ -1,0 +1,10 @@
+D:\STUDYING\3rd Year 2023_2024\CS551 - Ngôn ngữ lập trình C#\CS551_THUCHANH02\LAB02\bin\Debug\LAB02.exe.config
+D:\STUDYING\3rd Year 2023_2024\CS551 - Ngôn ngữ lập trình C#\CS551_THUCHANH02\LAB02\bin\Debug\LAB02.exe
+D:\STUDYING\3rd Year 2023_2024\CS551 - Ngôn ngữ lập trình C#\CS551_THUCHANH02\LAB02\bin\Debug\LAB02.pdb
+D:\STUDYING\3rd Year 2023_2024\CS551 - Ngôn ngữ lập trình C#\CS551_THUCHANH02\LAB02\obj\Debug\LAB02.csproj.AssemblyReference.cache
+D:\STUDYING\3rd Year 2023_2024\CS551 - Ngôn ngữ lập trình C#\CS551_THUCHANH02\LAB02\obj\Debug\LAB02.HomePage.resources
+D:\STUDYING\3rd Year 2023_2024\CS551 - Ngôn ngữ lập trình C#\CS551_THUCHANH02\LAB02\obj\Debug\LAB02.Properties.Resources.resources
+D:\STUDYING\3rd Year 2023_2024\CS551 - Ngôn ngữ lập trình C#\CS551_THUCHANH02\LAB02\obj\Debug\LAB02.csproj.GenerateResource.cache
+D:\STUDYING\3rd Year 2023_2024\CS551 - Ngôn ngữ lập trình C#\CS551_THUCHANH02\LAB02\obj\Debug\LAB02.csproj.CoreCompileInputs.cache
+D:\STUDYING\3rd Year 2023_2024\CS551 - Ngôn ngữ lập trình C#\CS551_THUCHANH02\LAB02\obj\Debug\LAB02.exe
+D:\STUDYING\3rd Year 2023_2024\CS551 - Ngôn ngữ lập trình C#\CS551_THUCHANH02\LAB02\obj\Debug\LAB02.pdb
