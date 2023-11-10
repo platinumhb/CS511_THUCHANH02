@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\User Control"
   ],
-  "SelectedNode": "\\Program.cs",
+  "SelectedNode": "\\User Control\\MusicPlayer.cs",
   "PreviewInSolutionExplorer": false
 }
