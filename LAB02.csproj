@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -55,11 +58,35 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="User Control\Catogery.cs">
+    <Compile Include="Test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test.Designer.cs">
+      <DependentUpon>Test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Control\ENCategory.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="User Control\Catogery.Designer.cs">
-      <DependentUpon>Catogery.cs</DependentUpon>
+    <Compile Include="User Control\ENCategory.Designer.cs">
+      <DependentUpon>ENCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Control\Main.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Control\Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Control\SearchBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Control\SearchBox.Designer.cs">
+      <DependentUpon>SearchBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Control\VNCategory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Control\VNCategory.Designer.cs">
+      <DependentUpon>VNCategory.cs</DependentUpon>
     </Compile>
     <Compile Include="User Control\Menu.cs">
       <SubType>UserControl</SubType>
@@ -79,6 +106,12 @@
     <Compile Include="User Control\MusicPlayer.Designer.cs">
       <DependentUpon>MusicPlayer.cs</DependentUpon>
     </Compile>
+    <Compile Include="User Control\SongDemo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Control\SongDemo.Designer.cs">
+      <DependentUpon>SongDemo.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="HomePage.resx">
       <DependentUpon>HomePage.cs</DependentUpon>
     </EmbeddedResource>
@@ -91,8 +124,20 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="User Control\Catogery.resx">
-      <DependentUpon>Catogery.cs</DependentUpon>
+    <EmbeddedResource Include="Test.resx">
+      <DependentUpon>Test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Control\ENCategory.resx">
+      <DependentUpon>ENCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Control\Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Control\SearchBox.resx">
+      <DependentUpon>SearchBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Control\VNCategory.resx">
+      <DependentUpon>VNCategory.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="User Control\Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
@@ -103,6 +148,10 @@
     <EmbeddedResource Include="User Control\MusicPlayer.resx">
       <DependentUpon>MusicPlayer.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="User Control\SongDemo.resx">
+      <DependentUpon>SongDemo.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
