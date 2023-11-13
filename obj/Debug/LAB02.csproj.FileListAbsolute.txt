@@ -11,4 +11,11 @@ D:\STUDYING\3rd Year 2023_2024\CS551 - Ngôn ngữ lập trình C#\CS551_THUCHAN
 D:\STUDYING\3rd Year 2023_2024\CS551 - Ngôn ngữ lập trình C#\CS551_THUCHANH02\LAB02\obj\Debug\LAB02.User_Control.MusicPlayer.resources
 D:\STUDYING\3rd Year 2023_2024\CS551 - Ngôn ngữ lập trình C#\CS551_THUCHANH02\LAB02\obj\Debug\LAB02.User_Control.MusicInfo.resources
 D:\STUDYING\3rd Year 2023_2024\CS551 - Ngôn ngữ lập trình C#\CS551_THUCHANH02\LAB02\obj\Debug\LAB02.User_Control.Menu.resources
-D:\STUDYING\3rd Year 2023_2024\CS551 - Ngôn ngữ lập trình C#\CS551_THUCHANH02\LAB02\obj\Debug\LAB02.User_Control.Catogery.resources
+D:\STUDYING\3rd Year 2023_2024\CS551 - Ngôn ngữ lập trình C#\CS551_THUCHANH02\LAB02\obj\Debug\LAB02.User_Control.SongDemo.resources
+D:\STUDYING\3rd Year 2023_2024\CS551 - Ngôn ngữ lập trình C#\CS551_THUCHANH02\LAB02\bin\Debug\Newtonsoft.Json.dll
+D:\STUDYING\3rd Year 2023_2024\CS551 - Ngôn ngữ lập trình C#\CS551_THUCHANH02\LAB02\bin\Debug\Newtonsoft.Json.xml
+D:\STUDYING\3rd Year 2023_2024\CS551 - Ngôn ngữ lập trình C#\CS551_THUCHANH02\LAB02\obj\Debug\LAB02.csproj.CopyComplete
+D:\STUDYING\3rd Year 2023_2024\CS551 - Ngôn ngữ lập trình C#\CS551_THUCHANH02\LAB02\obj\Debug\LAB02.Test.resources
+D:\STUDYING\3rd Year 2023_2024\CS551 - Ngôn ngữ lập trình C#\CS551_THUCHANH02\LAB02\obj\Debug\LAB02.User_Control.VNCategory.resources
+D:\STUDYING\3rd Year 2023_2024\CS551 - Ngôn ngữ lập trình C#\CS551_THUCHANH02\LAB02\obj\Debug\LAB02.User_Control.SearchBox.resources
+D:\STUDYING\3rd Year 2023_2024\CS551 - Ngôn ngữ lập trình C#\CS551_THUCHANH02\LAB02\obj\Debug\LAB02.User_Control.ENCategory.resources

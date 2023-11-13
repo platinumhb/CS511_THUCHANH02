@@ -21,5 +21,35 @@ namespace LAB02
         {
             this.Close();
         }
+
+        private void HomePage_Load(object sender, EventArgs e)
+        {
+            this.vnCategory.Visible = false;
+            this.enCategory.Visible = false;
+        }
+
+        private void nhacVN_Click(object sender, EventArgs e)
+        {
+            this.vnCategory.Visible = true;
+            this.enCategory.Visible = false;
+        }
+
+        private void nhacVNic_Click(object sender, EventArgs e)
+        {
+            this.vnCategory.Visible = true;
+            this.enCategory.Visible = false;
+        }
+
+        private void nhacNN_Click(object sender, EventArgs e)
+        {
+            this.enCategory.Visible = true;
+            this.vnCategory.Visible = false;
+        }
+
+        private void nhacNNic_Click(object sender, EventArgs e)
+        {
+            this.enCategory.Visible = true;
+            this.vnCategory.Visible = false;
+        }
     }
 }
