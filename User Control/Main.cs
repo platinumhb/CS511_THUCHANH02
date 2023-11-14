@@ -14,7 +14,96 @@ namespace LAB02.User_Control
     {
         public Main()
         {
+            int n = 30;
             InitializeComponent();
+            for (int i = 1; i <= n; i++)
+            {
+                SongDemo song = new SongDemo(i);
+
+                // Thêm Label vào FlowLayoutPanel
+                this.Category.Controls.Add(song);
+            }
+        }
+        public event EventHandler PanelClickedvn;
+        public event EventHandler PanelClickednn;
+        private void Main_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void listvn2_Click(object sender, EventArgs e)
+        {
+            PanelClickedvn?.Invoke(this, EventArgs.Empty);
+        }
+
+        private void listvn1_Click(object sender, EventArgs e)
+        {
+            PanelClickedvn?.Invoke(this, EventArgs.Empty);
+        }
+
+        private void listnn2_Click(object sender, EventArgs e)
+        {
+            PanelClickednn?.Invoke(this, EventArgs.Empty);
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            PanelClickednn?.Invoke(this, EventArgs.Empty);
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+            PanelClickednn?.Invoke(this, EventArgs.Empty);
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+            PanelClickednn?.Invoke(this, EventArgs.Empty);
+        }
+
+        private void ListImage_Click(object sender, EventArgs e)
+        {
+            PanelClickedvn?.Invoke(this, EventArgs.Empty);
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            PanelClickedvn?.Invoke(this, EventArgs.Empty);
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+            PanelClickedvn?.Invoke(this, EventArgs.Empty);
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            PanelClickedvn?.Invoke(this, EventArgs.Empty);
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            PanelClickedvn?.Invoke(this, EventArgs.Empty);
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            PanelClickedvn?.Invoke(this, EventArgs.Empty);
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            PanelClickednn?.Invoke(this, EventArgs.Empty);
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            PanelClickednn?.Invoke(this, EventArgs.Empty);
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            PanelClickednn?.Invoke(this, EventArgs.Empty);
         }
     }
 }

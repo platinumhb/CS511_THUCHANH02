@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomePage));
             this.CloseButton = new System.Windows.Forms.PictureBox();
             this.title = new System.Windows.Forms.GroupBox();
-            this.vnCategory = new LAB02.User_Control.VNCategory();
             this.panel1 = new System.Windows.Forms.Panel();
             this.logo = new System.Windows.Forms.PictureBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
@@ -52,7 +51,9 @@
             this.label4 = new System.Windows.Forms.Label();
             this.search = new System.Windows.Forms.Label();
             this.library = new System.Windows.Forms.Label();
+            this.vnCategory = new LAB02.User_Control.VNCategory();
             this.enCategory = new LAB02.User_Control.ENCategory();
+            this.main = new LAB02.User_Control.Main();
             ((System.ComponentModel.ISupportInitialize)(this.CloseButton)).BeginInit();
             this.title.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -84,13 +85,6 @@
             this.title.Name = "title";
             this.title.TabStop = false;
             // 
-            // vnCategory
-            // 
-            this.vnCategory.BackColor = System.Drawing.Color.Transparent;
-            this.vnCategory.ForeColor = System.Drawing.SystemColors.ControlText;
-            resources.ApplyResources(this.vnCategory, "vnCategory");
-            this.vnCategory.Name = "vnCategory";
-            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(0)))), ((int)(((byte)(50)))), ((int)(((byte)(70)))));
@@ -107,6 +101,7 @@
             resources.ApplyResources(this.logo, "logo");
             this.logo.Name = "logo";
             this.logo.TabStop = false;
+            this.logo.Click += new System.EventHandler(this.logo_Click);
             // 
             // flowLayoutPanel1
             // 
@@ -203,6 +198,7 @@
             resources.ApplyResources(this.homeicon, "homeicon");
             this.homeicon.Name = "homeicon";
             this.homeicon.TabStop = false;
+            this.homeicon.Click += new System.EventHandler(this.homeicon_Click);
             // 
             // label5
             // 
@@ -215,6 +211,7 @@
             resources.ApplyResources(this.home, "home");
             this.home.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.home.Name = "home";
+            this.home.Click += new System.EventHandler(this.home_Click);
             // 
             // label4
             // 
@@ -234,11 +231,24 @@
             this.library.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.library.Name = "library";
             // 
+            // vnCategory
+            // 
+            this.vnCategory.BackColor = System.Drawing.Color.Transparent;
+            this.vnCategory.ForeColor = System.Drawing.SystemColors.ControlText;
+            resources.ApplyResources(this.vnCategory, "vnCategory");
+            this.vnCategory.Name = "vnCategory";
+            // 
             // enCategory
             // 
             this.enCategory.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.enCategory, "enCategory");
             this.enCategory.Name = "enCategory";
+            // 
+            // main
+            // 
+            resources.ApplyResources(this.main, "main");
+            this.main.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(25)))));
+            this.main.Name = "main";
             // 
             // HomePage
             // 
@@ -247,10 +257,11 @@
             this.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
             this.BackColor = System.Drawing.SystemColors.MenuText;
             this.ControlBox = false;
+            this.Controls.Add(this.title);
+            this.Controls.Add(this.main);
+            this.Controls.Add(this.vnCategory);
             this.Controls.Add(this.enCategory);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.vnCategory);
-            this.Controls.Add(this.title);
             this.ForeColor = System.Drawing.SystemColors.Desktop;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
@@ -281,7 +292,6 @@
         #endregion
         private System.Windows.Forms.PictureBox CloseButton;
         private System.Windows.Forms.GroupBox title;
-        private User_Control.VNCategory vnCategory;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox logo;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
@@ -303,5 +313,7 @@
         private System.Windows.Forms.Label search;
         private System.Windows.Forms.Label library;
         private User_Control.ENCategory enCategory;
+        private User_Control.VNCategory vnCategory;
+        private User_Control.Main main;
     }
 }

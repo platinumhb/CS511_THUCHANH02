@@ -14,7 +14,7 @@ namespace LAB02.User_Control
     {
         public VNCategory()
         {
-            int n = 30;
+            int n = 16;
             InitializeComponent();
             for (int i = 1; i <= n; i++)
             {

@@ -161,10 +161,10 @@
     <value>0</value>
   </data>
   <data name="title.Location" type="System.Drawing.Point, System.Drawing">
-    <value>250, -7</value>
+    <value>250, -5</value>
   </data>
   <data name="title.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1222, 75</value>
+    <value>1222, 65</value>
   </data>
   <data name="title.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -179,28 +179,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;title.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="vnCategory.Location" type="System.Drawing.Point, System.Drawing">
-    <value>250, 65</value>
-  </data>
-  <data name="vnCategory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1222, 700</value>
-  </data>
-  <data name="vnCategory.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;vnCategory.Name" xml:space="preserve">
-    <value>vnCategory</value>
-  </data>
-  <data name="&gt;&gt;vnCategory.Type" xml:space="preserve">
-    <value>LAB02.User_Control.VNCategory, LAB02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;vnCategory.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;vnCategory.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>0</value>
   </data>
   <data name="&gt;&gt;logo.Name" xml:space="preserve">
     <value>logo</value>
@@ -281,12 +260,12 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>4</value>
   </data>
   <data name="logo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DwAACw8BkvkDpQAABw1JREFUaEPtmuuzVWMcx5tJN90UQ7lEJZmmq0QxQ7wNr9IwpvGKf0ClGRJFY7q4
+        DAAACwwBP0AiyAAABw1JREFUaEPtmuuzVWMcx5tJN90UQ7lEJZmmq0QxQ7wNr9IwpvGKf0ClGRJFY7q4
         TEox04g3jUvJ3RAvQjGJcmcUmZDcSlJuy/ezn+/ztHb7rLP32efsHKbPzHdmne/vt5611l7PfZ0OR/m/
         kmVZF+kS6TZpjfSh9KP0u3TQxx9IxMiZKHXx6f8+uplzpOXST1JL4Zxl0hgXd+TRxUdLz0t5NksLpcnS
         SKmP1MniGI/YIukdKfK39Kw00sU3Hl2sm3S39KcEe6X50tlOqRnOkRa4DPhD4iG7OqUx6AJDpHcloO7z
@@ -319,6 +298,9 @@
         U3OWx8zTEP8808vhozRNhw7/ADYZbQDySV2lAAAAAElFTkSuQmCC
 </value>
   </data>
+  <data name="logo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="logo.Location" type="System.Drawing.Point, System.Drawing">
     <value>101, 3</value>
   </data>
@@ -347,7 +329,7 @@
     <value>1, 437</value>
   </data>
   <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>250, 100</value>
+    <value>250, 180</value>
   </data>
   <data name="flowLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -369,6 +351,9 @@
   </data>
   <data name="nhacVN.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Tai Le, 12pt, style=Bold</value>
+  </data>
+  <data name="nhacVN.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="nhacVN.Location" type="System.Drawing.Point, System.Drawing">
     <value>56, 348</value>
@@ -475,6 +460,9 @@
         RO7IO3kllyT/NDqrayGE8C8NBp+LkMnnHatlkgAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="nhacNNic.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="nhacNNic.Location" type="System.Drawing.Point, System.Drawing">
     <value>15, 56</value>
   </data>
@@ -504,6 +492,9 @@
   </data>
   <data name="nhacNN.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Tai Le, 12pt, style=Bold</value>
+  </data>
+  <data name="nhacNN.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="nhacNN.Location" type="System.Drawing.Point, System.Drawing">
     <value>55, 59</value>
@@ -535,6 +526,9 @@
   <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Tai Le, 12pt, style=Bold</value>
   </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
     <value>55, 21</value>
   </data>
@@ -562,7 +556,7 @@
   <data name="nhacVNic.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DQAACw0B7QfALAAAAW5JREFUaEPt2LEuBGEUxfENxWo1SCQKiUItHkPhKbQaPYlCvIQXkEgoPIFWtCjQ
+        DAAACwwBP0AiyAAAAW5JREFUaEPt2LEuBGEUxfENxWo1SCQKiUItHkPhKbQaPYlCvIQXkEgoPIFWtCjQ
         iKgUhK3Gf+YeYpLZnU8x5o65v+QUO993M+cW28wghBBC6Issy5bIJtkn5+SCTOvYJwoukJ+ln0mVGY0Y
         PWyFKpTw+MVOa7lfJFV5EW9UMkUs8idUMsVQIz6p5Dj35Jhs6bpfRV3zSM7ILtkg87rSDRQu6Gc6zbVC
         FUp01ONFvNEesYgb2iMWcUN79HgRzbVCFUp01ONFvNEesYgb2qPbi9B/ytbo/iIrtkaHF6H7kJwUW0CP
@@ -570,6 +564,9 @@
         RhrxiYIf1rPWtUZ8ouCD9ax1qBGfKHhqPSd6InMaSWezzdFrCvxcI2/FQbX86+K6rv+OzTdHr/nGo1Vy
         RO7IO3kllyT/NDqrayGE8C8NBp+LkMnnHatlkgAAAABJRU5ErkJggg==
 </value>
+  </data>
+  <data name="nhacVNic.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="nhacVNic.Location" type="System.Drawing.Point, System.Drawing">
     <value>15, 15</value>
@@ -739,7 +736,7 @@
   <data name="pictureBox5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DwAACw8BkvkDpQAABNxJREFUeF7tmkmoHFUUhp+GRFGDmijGmGjM4JBEURCHIKIIEjGICULExHGjUXQl
+        DAAACwwBP0AiyAAABNxJREFUeF7tmkmoHFUUhp+GRFGDmijGmGjM4JBEURCHIKIIEjGICULExHGjUXQl
         EReKogt3bgJqVooDokKycBNcmCwUFTQEB4jzPAvigLPP77/139f3VXfndfXwqKrUBz90n3PuqXuq762u
         unXHGhoaGhoa+md8fHwWWoCOQQfYPDJ0DB9Lx5xl8/TBQU9Cd6Cd6DuU8jf6Ej2PrkNHu1nfkONIdDV6
         Bn2O/kIpP6BdaDNa7mbDh+SnoWdREdTZR9F8p+kZ2sxFD6LfURFeRhc6zeCQbDZ6Cv2HOvEn+gx9G751
@@ -762,6 +759,9 @@
         GxdE/YqPUJgWWrW7uxtavV3r8HpCgbrQPYTSIa8psQUVvl+oNBSsV3Gd39Q2NDQ0NDQ0NIyUsbH/AUZo
         XKkTLth5AAAAAElFTkSuQmCC
 </value>
+  </data>
+  <data name="pictureBox5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="pictureBox5.Location" type="System.Drawing.Point, System.Drawing">
     <value>15, 208</value>
@@ -790,7 +790,7 @@
   <data name="pictureBox4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DwAACw8BkvkDpQAAAgpJREFUaEPtmV1Kw0AUhatYtD65AXU5tcUtWIVWkeKj4sJa3YS6BX+q777Xn3jO
+        DAAACwwBP0AiyAAAAgpJREFUaEPtmV1Kw0AUhatYtD65AXU5tcUtWIVWkeKj4sJa3YS6BX+q777Xn3jO
         5FREiHeSTs1Q5oNDyXjmzrkkGWHSSCQS85NlWQs6hq6hF+gNWhSszTW4FtfcUIz5QKF9aALVxRPUVZxq
         oMAZ9MFqNfMODRWrHJjIOxFDEzPYTEfx/MCEDYi3NDaeoZZi2sB84qbFyUAxbWDmjhErY8W0gZnbX6xM
         FNMG5mk+J0qmimmjCdGimDbyh2JLNV/zy/lxIX2QPxSpkSJcSB/kD0VqpAgX0gf5Q5EaKcKF9EH+Mriw
@@ -801,6 +801,9 @@
         luCwttbgOzF7nJjhVJZqoEAHemS1muDjVO1O/AaF+M4MIG6J3JoXvf1yDa7Ff4Ll3olEIiSNxhfVmuFh
         XLcGkwAAAABJRU5ErkJggg==
 </value>
+  </data>
+  <data name="pictureBox4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="pictureBox4.Location" type="System.Drawing.Point, System.Drawing">
     <value>15, 168</value>
@@ -829,11 +832,14 @@
   <data name="libraryicon.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DwAACw8BkvkDpQAAAL1JREFUaEPt2NEKgzAMBdD+hu4/1X3f6kf51N2YjA1a6JtL7D0QkBowF2kfmoiI
+        DAAACwwBP0AiyAAAAL1JREFUaEPt2NEKgzAMBdD+hu4/1X3f6kf51N2YjA1a6JtL7D0QkBowF2kfmoiI
         iKihlLKjvMs2bhsaHtoXwmxj1/DyqT0hbDb2FxblT0iIQzqCkFk3lP4ZPETYEz1ZgtwCg3jDIN6MF+Q8
         q//APt81XhDvGMQbBvFmvCB2Gl7OPt81XhDvGMQbBvHmVkGyPob2+pzVM2pFRbugW1D11SkW5eYuitXG
         ruHlpD0hTDZ2Gxoi7BndE0RERPQrpTcFUU2JolYtiAAAAABJRU5ErkJggg==
 </value>
+  </data>
+  <data name="libraryicon.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="libraryicon.Location" type="System.Drawing.Point, System.Drawing">
     <value>15, 95</value>
@@ -862,7 +868,7 @@
   <data name="searchicon.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DwAACw8BkvkDpQAAAz1JREFUaEPtmTlrVFEYhscmRlxARBLbRNTWRrDIZvAXWCZKUAgR/A8GLRLt0yeC
+        DAAACwwBP0AiyAAAAz1JREFUaEPtmTlrVFEYhscmRlxARBLbRNTWRrDIZvAXWCZKUAgR/A8GLRLt0yeC
         IJYxuLRauERLjTY2di5VxB3H5537zeXMSWbJuedMJjgPvKDznft+55u5Z02pS5cOpFwuH0GX0C30Cn1G
         v0yf0Eu0hC6ifnusc6BTo2gF/UGt8hvdQ8Nms33QiaPoISrKfTRotu2FxBfQV/UiEuto0uzbAwmvVVJv
         zhs0h8bRcbTXdMI+m0drqB6zliYtJLqe5dvAczRmzZpC29PoiR7chLTFkECvk89PNI12WbOW0TNoxjx8
@@ -878,6 +884,9 @@
         bjFthU7+d8Vo6t5jj3QudLKV2ay9f38MhY42+mWuWrOdAR3erJidVUQVOu4WszOLqEIBGjNp/ljapUsj
         SqV/6aP4DsT9+hEAAAAASUVORK5CYII=
 </value>
+  </data>
+  <data name="searchicon.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="searchicon.Location" type="System.Drawing.Point, System.Drawing">
     <value>15, 57</value>
@@ -906,7 +915,7 @@
   <data name="homeicon.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DgAACw4BQL7hQQAAAmpJREFUaEPt2L9LVXEYx/FrRBL0Q4QaxMGtlqClLXAIhLa22nRydtM/wdWxtSkI
+        DAAACwwBP0AiyAAAAmpJREFUaEPt2L9LVXEYx/FrRBL0Q4QaxMGtlqClLXAIhLa22nRydtM/wdWxtSkI
         IojGCPpBIEZTS7S0hCiCQjRkefx8v76PVNennvt4jn0P3Bd8EM59ns/3e4eOYW/IoaqqKeUFmeJxt+ji
         t5Utpbat3OHj8umyI8qi8lP5056yrJxivEy64AXlsfIvz5Rx1sqii11XPqVbOn1WbrCeHTzux8ft01mz
         yrd86mDSziw1qWdB+Z4++BUft0dnjCor+bTjeaCcpfOm8iU9rOXD2qL+SeVtPqkZ75T8itbPS8rz9DDJ
@@ -918,6 +927,9 @@
         Yy6ECjfWQqiwMRdChRtrIVTYmAuhwo21ECpszIVQ4cZaCBU25kKocGMthAobcyFUuLEWQoWNuRAq3FgL
         ocLGXAgVbqyFUGHTzKuD0cFR4cZaxNF/XRwaalqvtw9cp5Lmh9HxqgAAAABJRU5ErkJggg==
 </value>
+  </data>
+  <data name="homeicon.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="homeicon.Location" type="System.Drawing.Point, System.Drawing">
     <value>15, 15</value>
@@ -949,6 +961,9 @@
   <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Tai Le, 12pt, style=Bold</value>
   </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
     <value>55, 213</value>
   </data>
@@ -978,6 +993,9 @@
   </data>
   <data name="home.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Tai Le, 12pt, style=Bold</value>
+  </data>
+  <data name="home.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="home.Location" type="System.Drawing.Point, System.Drawing">
     <value>55, 18</value>
@@ -1009,6 +1027,9 @@
   <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Tai Le, 12pt, style=Bold</value>
   </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
     <value>55, 172</value>
   </data>
@@ -1038,6 +1059,9 @@
   </data>
   <data name="search.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Tai Le, 12pt, style=Bold</value>
+  </data>
+  <data name="search.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="search.Location" type="System.Drawing.Point, System.Drawing">
     <value>55, 60</value>
@@ -1069,6 +1093,9 @@
   <data name="library.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Tai Le, 12pt, style=Bold</value>
   </data>
+  <data name="library.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="library.Location" type="System.Drawing.Point, System.Drawing">
     <value>55, 98</value>
   </data>
@@ -1093,9 +1120,30 @@
   <data name="&gt;&gt;library.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
-  <metadata name="enCategory.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
+  <data name="vnCategory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>250, 65</value>
+  </data>
+  <data name="vnCategory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1222, 700</value>
+  </data>
+  <data name="vnCategory.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="vnCategory.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;vnCategory.Name" xml:space="preserve">
+    <value>vnCategory</value>
+  </data>
+  <data name="&gt;&gt;vnCategory.Type" xml:space="preserve">
+    <value>LAB02.User_Control.VNCategory, LAB02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;vnCategory.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;vnCategory.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="enCategory.Location" type="System.Drawing.Point, System.Drawing">
     <value>250, 65</value>
   </data>
@@ -1118,7 +1166,31 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;enCategory.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>3</value>
+  </data>
+  <data name="main.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="main.Location" type="System.Drawing.Point, System.Drawing">
+    <value>250, 65</value>
+  </data>
+  <data name="main.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1240, 700</value>
+  </data>
+  <data name="main.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;main.Name" xml:space="preserve">
+    <value>main</value>
+  </data>
+  <data name="&gt;&gt;main.Type" xml:space="preserve">
+    <value>LAB02.User_Control.Main, LAB02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;main.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;main.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
