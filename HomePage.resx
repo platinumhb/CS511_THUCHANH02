@@ -158,7 +158,97 @@
     <value>title</value>
   </data>
   <data name="&gt;&gt;CloseButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Next.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAACxIAAAsSAdLdfvwAAALNSURBVGhD7ZrLThRBFIZnJbCQYCLgTpYucKU7XRqICUaX
+        oM9AML4F6EKjiXHrIyBEfQNjXAuoKy8Qibr2FsfvP5xJKto9TndXdbcTvuRLoG59Jqe6prp6OocMK91u
+        9xhewZu4idv4Bb+5+nsLVac2l3HCuzcLgYzgNXyKP7Eo6vMYr+KID1sfXHQMb+AHjMV7vI6jfpm0cKGL
+        +AZT8Rrn/XLxYXBNozu6Uk08xDG/fBwYcBpfaPSaeY5THkY1GGgGle6meIUzHk45GGAStYw2je7JEx5W
+        Meg4ik1Mpzw0zYov0XS6b93bxV0PbzDooCW2rcx5mP2hoZbZHevSTrTw/PtLk0b6xq7KOTyLH+2/+Kx4
+        uNnQQNmIse044+PNYooP8w7zb3wqtQGMgYKf9TFTfZglCzoLKrWLjcU+nvZxT+GuCiOyaUH/CRV6niiz
+        Fe9Hysz8wHELPoRCPRSlIGVmFiz4EApvHdQlIVVm1iz4EAr1CJqSFJlZt+BDKNQuMzWxM7NtwYdQ+Pmg
+        LjkxM7NvwYdQqJOOuggzox1AWb5a8CEUDs0HaWpq7amwJJlTq44db+ybfcuCD6Gw7uW3SiZ6ZC6/OsZM
+        RexM9Fi14EMorGuLEiMTPTK3KBP4P20av+Pfm0ZBxRNrEoeUmRAbFnQWVOpUPAYpM9Fj0YLOgko96upU
+        vCqpH3Xf4hELOg8a6Gi/Kucx5eHDsoebD42UlTYck+ahXfpgJ440nLcu7eMXXvAwB4MO96xru7jt4Q0O
+        nTTFdHDcFp5h/xs8Dzoex7a8Vpj2sMrBAHrRU8djcB7alZ/0cKrBQFPYxDTTdJr0MOLAgLpn9DJUK0cd
+        PMB0794ZfA5TTjXdk8WW2LJwIWVnBXUqHgttO5axkV9A6AMtoZ4udRZbFPXZwEUst7TGhkDG8RKu4SPU
+        D2g+Ye9HNfr7Ja7jKi7gUe9+yJDR6fwGJJBOTKiZghEAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="Next.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Next.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 16</value>
+  </data>
+  <data name="Next.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="Next.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Next.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;Next.Name" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="&gt;&gt;Next.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Next.Parent" xml:space="preserve">
+    <value>title</value>
+  </data>
+  <data name="&gt;&gt;Next.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="Back.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAACxIAAAsSAdLdfvwAAALVSURBVGhD7ZrLahRBFIZnZZKFIYJJ3Jmli7iKS91JghDR
+        ZaLPECK+RaILRUHc+ggxQX0DEdcmXlZeMahrbzh+/8lpKLQ7TndXdbdDPvhgpq6nqeqa6urpHTCs9Pv9
+        I3gRr+EW7uAX/Obq8zYqT2Uu4IRXbxcCGcHL+Ah/YllU5wFewhFvtjnodAyv4juMxVu8gqPeTVro6By+
+        wlS8xAXvLj40rml0Uz01xD0c8+7jQIPT+FStN8wTnPIw6kFDM6jhbosXOOPhVIMGJlHLaNvonjzmYZWD
+        iqPYxnQqQtOs/BJNpTtWvVvc8vAGgwpaYrvKvIe5PxTUMvvcqnQTLTz//tGkkH6xU/AR5/C0favHqoeb
+        DwU0GjG3HRm6iFnv45Sl1OMNFt/4ZGoDGJvwImb9ewyWLeg8yNQuNia7eNLbPoEflBiJLQv6T8jQ80SV
+        rXgRqUYi4weOW/AhJOqhKBYpRyJk0YIPIfH6Xl5tUo9EyLoFH0KiHkHr0tRIZGxY8CEkapdZhyZHImPH
+        gg8h8fNeXiWaHomMXQs+hESddFRlzttoaiQyvlrwISQOzYXEnFrvldgAuVOr7o63jZt924IPITHF8pt6
+        ZHKXXx1jxqDJkVmz4ENITLlFSTUyuVuUCfyfNo3f8e9NoyDjoRWJR8qR2bSg8yBTp+KxSTUySxZ0HmTq
+        UVen4rEJLybGo+5rPGRBF0EBHe2nQBejizhj3+qx4uEWQyGNSheOSYvQLn2wE0cKLliV7vELz3qYg0GF
+        21a1W9zw8AaHSppiOjjuCo9x/xu8CCoexa68Vpj2sKpBA3rRU/cxuA7alR/3cOpBQ1PYxjTTdJr0MOJA
+        g7pn9DJUK0cT3MV0795pfB5TTjXdk+WW2KrQkUZnFXUqHgttO1awlX9A6IKWUU+XOosti+ps4hJWW1pj
+        QyDjeB7X8T7qDzSfMPtTjT4/ww1cw0U87NUPGDJ6vd9bVk5NaMfBnAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="Back.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Back.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 16</value>
+  </data>
+  <data name="Back.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
+  </data>
+  <data name="Back.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Back.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;Back.Name" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="&gt;&gt;Back.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Back.Parent" xml:space="preserve">
+    <value>title</value>
+  </data>
+  <data name="&gt;&gt;Back.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="title.Location" type="System.Drawing.Point, System.Drawing">
     <value>250, -5</value>
@@ -1120,6 +1210,33 @@
   <data name="&gt;&gt;library.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
+  <data name="main.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="main.Location" type="System.Drawing.Point, System.Drawing">
+    <value>250, 65</value>
+  </data>
+  <data name="main.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="main.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1240, 700</value>
+  </data>
+  <data name="main.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;main.Name" xml:space="preserve">
+    <value>main</value>
+  </data>
+  <data name="&gt;&gt;main.Type" xml:space="preserve">
+    <value>LAB02.User_Control.Main, LAB02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;main.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;main.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="vnCategory.Location" type="System.Drawing.Point, System.Drawing">
     <value>250, 65</value>
   </data>
@@ -1167,30 +1284,6 @@
   </data>
   <data name="&gt;&gt;enCategory.ZOrder" xml:space="preserve">
     <value>3</value>
-  </data>
-  <data name="main.AutoScroll" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="main.Location" type="System.Drawing.Point, System.Drawing">
-    <value>250, 65</value>
-  </data>
-  <data name="main.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1240, 700</value>
-  </data>
-  <data name="main.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;main.Name" xml:space="preserve">
-    <value>main</value>
-  </data>
-  <data name="&gt;&gt;main.Type" xml:space="preserve">
-    <value>LAB02.User_Control.Main, LAB02, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;main.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;main.ZOrder" xml:space="preserve">
-    <value>1</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

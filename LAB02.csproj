@@ -76,11 +76,23 @@
     <Compile Include="User Control\Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
+    <Compile Include="User Control\MusicInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Control\MusicInfo.Designer.cs">
+      <DependentUpon>MusicInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="User Control\SearchBox.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="User Control\SearchBox.Designer.cs">
       <DependentUpon>SearchBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Control\uctText.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Control\uctText.Designer.cs">
+      <DependentUpon>uctText.cs</DependentUpon>
     </Compile>
     <Compile Include="User Control\VNCategory.cs">
       <SubType>UserControl</SubType>
@@ -93,12 +105,6 @@
     </Compile>
     <Compile Include="User Control\Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
-    </Compile>
-    <Compile Include="User Control\MusicInfo.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="User Control\MusicInfo.Designer.cs">
-      <DependentUpon>MusicInfo.cs</DependentUpon>
     </Compile>
     <Compile Include="User Control\MusicPlayer.cs">
       <SubType>UserControl</SubType>
@@ -133,17 +139,20 @@
     <EmbeddedResource Include="User Control\Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="User Control\MusicInfo.resx">
+      <DependentUpon>MusicInfo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="User Control\SearchBox.resx">
       <DependentUpon>SearchBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Control\uctText.resx">
+      <DependentUpon>uctText.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="User Control\VNCategory.resx">
       <DependentUpon>VNCategory.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="User Control\Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="User Control\MusicInfo.resx">
-      <DependentUpon>MusicInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="User Control\MusicPlayer.resx">
       <DependentUpon>MusicPlayer.cs</DependentUpon>

@@ -48,27 +48,30 @@
             this.SongImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.SongImage.TabIndex = 0;
             this.SongImage.TabStop = false;
+            this.SongImage.Click += new System.EventHandler(this.SongImage_Click);
             // 
             // SongName
             // 
             this.SongName.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SongName.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.SongName.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.SongName.Location = new System.Drawing.Point(147, 61);
             this.SongName.Name = "SongName";
             this.SongName.Size = new System.Drawing.Size(250, 58);
             this.SongName.TabIndex = 1;
             this.SongName.Text = "Lời tạm biệt chưa nói";
+            this.SongName.Click += new System.EventHandler(this.SongName_Click);
             // 
             // Singer
             // 
             this.Singer.AutoSize = true;
             this.Singer.Font = new System.Drawing.Font("Microsoft Tai Le", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Singer.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.Singer.ForeColor = System.Drawing.SystemColors.Window;
             this.Singer.Location = new System.Drawing.Point(147, 35);
             this.Singer.Name = "Singer";
             this.Singer.Size = new System.Drawing.Size(72, 22);
             this.Singer.TabIndex = 1;
             this.Singer.Text = "GDucky";
+            this.Singer.Click += new System.EventHandler(this.Singer_Click);
             // 
             // NotLovePB
             // 

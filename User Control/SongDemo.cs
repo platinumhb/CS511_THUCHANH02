@@ -12,12 +12,14 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
 using Newtonsoft.Json.Linq;
+using System.Reflection;
 
 namespace LAB02.User_Control
 {
     public partial class SongDemo : UserControl
     {
         public object JsonConvert { get; private set; }
+        public event Action<int> SongClicked;
         public int index;
         public SongDemo(int i)
         {
@@ -75,6 +77,21 @@ namespace LAB02.User_Control
         {
             this.LovePB.Visible = false;
             this.NotLovePB.Visible = true;
+        }
+
+        private void SongImage_Click(object sender, EventArgs e)
+        {
+            SongClicked?.Invoke(this.index);
+        }
+
+        private void SongName_Click(object sender, EventArgs e)
+        {
+            SongClicked?.Invoke(this.index);
+        }
+
+        private void Singer_Click(object sender, EventArgs e)
+        {
+            SongClicked?.Invoke(this.index);
         }
     }
 }

@@ -373,7 +373,7 @@
             this.Category.ForeColor = System.Drawing.Color.Transparent;
             this.Category.Location = new System.Drawing.Point(0, 400);
             this.Category.Name = "Category";
-            this.Category.Size = new System.Drawing.Size(1171, 1550);
+            this.Category.Size = new System.Drawing.Size(1172, 1550);
             this.Category.TabIndex = 5;
             // 
             // Main
@@ -381,14 +381,14 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
             this.Controls.Add(this.Category);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(0);
             this.Name = "Main";
-            this.Size = new System.Drawing.Size(1199, 679);
+            this.Size = new System.Drawing.Size(1178, 658);
             this.Load += new System.EventHandler(this.Main_Load);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.listvn1.ResumeLayout(false);

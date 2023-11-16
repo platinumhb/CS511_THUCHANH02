@@ -51,9 +51,11 @@
             this.label4 = new System.Windows.Forms.Label();
             this.search = new System.Windows.Forms.Label();
             this.library = new System.Windows.Forms.Label();
+            this.main = new LAB02.User_Control.Main();
             this.vnCategory = new LAB02.User_Control.VNCategory();
             this.enCategory = new LAB02.User_Control.ENCategory();
-            this.main = new LAB02.User_Control.Main();
+            this.Back = new System.Windows.Forms.PictureBox();
+            this.Next = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.CloseButton)).BeginInit();
             this.title.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -67,6 +69,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.libraryicon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.searchicon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.homeicon)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Back)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Next)).BeginInit();
             this.SuspendLayout();
             // 
             // CloseButton
@@ -79,6 +83,8 @@
             // title
             // 
             this.title.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(0)))), ((int)(((byte)(50)))), ((int)(((byte)(70)))));
+            this.title.Controls.Add(this.Next);
+            this.title.Controls.Add(this.Back);
             this.title.Controls.Add(this.CloseButton);
             this.title.ForeColor = System.Drawing.SystemColors.ButtonShadow;
             resources.ApplyResources(this.title, "title");
@@ -231,6 +237,12 @@
             this.library.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.library.Name = "library";
             // 
+            // main
+            // 
+            resources.ApplyResources(this.main, "main");
+            this.main.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(25)))));
+            this.main.Name = "main";
+            // 
             // vnCategory
             // 
             this.vnCategory.BackColor = System.Drawing.Color.Transparent;
@@ -244,11 +256,19 @@
             resources.ApplyResources(this.enCategory, "enCategory");
             this.enCategory.Name = "enCategory";
             // 
-            // main
+            // Back
             // 
-            resources.ApplyResources(this.main, "main");
-            this.main.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(25)))));
-            this.main.Name = "main";
+            resources.ApplyResources(this.Back, "Back");
+            this.Back.Name = "Back";
+            this.Back.TabStop = false;
+            this.Back.Click += new System.EventHandler(this.Back_Click);
+            // 
+            // Next
+            // 
+            resources.ApplyResources(this.Next, "Next");
+            this.Next.Name = "Next";
+            this.Next.TabStop = false;
+            this.Next.Click += new System.EventHandler(this.Next_Click);
             // 
             // HomePage
             // 
@@ -285,6 +305,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.libraryicon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.searchicon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.homeicon)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Back)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Next)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -315,5 +337,7 @@
         private User_Control.ENCategory enCategory;
         private User_Control.VNCategory vnCategory;
         private User_Control.Main main;
+        private System.Windows.Forms.PictureBox Next;
+        private System.Windows.Forms.PictureBox Back;
     }
 }

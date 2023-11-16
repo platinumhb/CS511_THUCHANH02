@@ -29,3 +29,10 @@
 250, 205, 150, 120
 
 1242 700
+
+main page
+Search 
+Song info
+Tạo playlist + tim + download
+bài hát đã nghe
+tính năng phụ, musicplayer

@@ -12,6 +12,8 @@ namespace LAB02.User_Control
 {
     public partial class Main : UserControl
     {
+        public event Action<int> SongClicked;
+        public int clicked_index;
         public Main()
         {
             int n = 30;
@@ -19,7 +21,7 @@ namespace LAB02.User_Control
             for (int i = 1; i <= n; i++)
             {
                 SongDemo song = new SongDemo(i);
-
+                song.SongClicked += song_clicked;
                 // Thêm Label vào FlowLayoutPanel
                 this.Category.Controls.Add(song);
             }
@@ -104,6 +106,11 @@ namespace LAB02.User_Control
         private void label4_Click(object sender, EventArgs e)
         {
             PanelClickednn?.Invoke(this, EventArgs.Empty);
+        }
+        private void song_clicked(int index)
+        {
+            this.clicked_index = index;
+            this.SongClicked?.Invoke(clicked_index);
         }
     }
 }
