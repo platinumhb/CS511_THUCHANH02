@@ -119,7 +119,7 @@
             this.Controls.Add(this.Discription);
             this.Name = "ENCategory";
             this.Size = new System.Drawing.Size(1222, 700);
-            this.Load += new System.EventHandler(this.ENCategory_Load_1);
+            this.Load += new System.EventHandler(this.ENCategory_Load);
             this.Discription.ResumeLayout(false);
             this.Discription.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -128,12 +128,11 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.FlowLayoutPanel Category;
         private System.Windows.Forms.Panel Discription;
         private System.Windows.Forms.Label ListName;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        public System.Windows.Forms.FlowLayoutPanel Category;
     }
 }

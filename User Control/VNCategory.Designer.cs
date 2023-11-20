@@ -30,11 +30,11 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VNCategory));
             this.Discription = new System.Windows.Forms.Panel();
-            this.Category = new System.Windows.Forms.FlowLayoutPanel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.ListName = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Category = new System.Windows.Forms.FlowLayoutPanel();
             this.Discription.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -52,40 +52,6 @@
             this.Discription.Size = new System.Drawing.Size(1222, 200);
             this.Discription.TabIndex = 0;
             // 
-            // Category
-            // 
-            this.Category.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Category.AutoScroll = true;
-            this.Category.BackColor = System.Drawing.Color.PaleGreen;
-            this.Category.ForeColor = System.Drawing.Color.Transparent;
-            this.Category.Location = new System.Drawing.Point(0, 200);
-            this.Category.Name = "Category";
-            this.Category.Size = new System.Drawing.Size(1002, 500);
-            this.Category.TabIndex = 0;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(194, 194);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Tai Le", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(210, 63);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(199, 16);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "DANH SÁCH PHÁT CÔNG KHAI";
-            // 
             // ListName
             // 
             this.ListName.AutoSize = true;
@@ -94,7 +60,7 @@
             this.ListName.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ListName.Location = new System.Drawing.Point(203, 79);
             this.ListName.Name = "ListName";
-            this.ListName.Size = new System.Drawing.Size(338, 56);
+            this.ListName.Size = new System.Drawing.Size(333, 55);
             this.ListName.TabIndex = 2;
             this.ListName.Text = "Nhạc Việt Nam";
             // 
@@ -109,6 +75,40 @@
             this.label3.Size = new System.Drawing.Size(199, 16);
             this.label3.TabIndex = 1;
             this.label3.Text = "DANH SÁCH PHÁT CÔNG KHAI";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Tai Le", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Location = new System.Drawing.Point(210, 63);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(199, 16);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "DANH SÁCH PHÁT CÔNG KHAI";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(194, 194);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // Category
+            // 
+            this.Category.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Category.AutoScroll = true;
+            this.Category.BackColor = System.Drawing.Color.PaleGreen;
+            this.Category.ForeColor = System.Drawing.Color.Transparent;
+            this.Category.Location = new System.Drawing.Point(0, 200);
+            this.Category.Name = "Category";
+            this.Category.Size = new System.Drawing.Size(1002, 500);
+            this.Category.TabIndex = 0;
             // 
             // VNCategory
             // 
@@ -131,10 +131,10 @@
         #endregion
 
         private System.Windows.Forms.Panel Discription;
-        private System.Windows.Forms.FlowLayoutPanel Category;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label ListName;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
+        public System.Windows.Forms.FlowLayoutPanel Category;
     }
 }
