@@ -42,6 +42,8 @@
             this.day = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Header = new System.Windows.Forms.Panel();
+            this.musicPlayer1 = new LAB02.User_Control.MusicPlayer();
+            this.download = new System.Windows.Forms.PictureBox();
             this.girlBtt = new System.Windows.Forms.RadioButton();
             this.boyBtt = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
@@ -51,12 +53,16 @@
             this.CommentBoard = new System.Windows.Forms.FlowLayoutPanel();
             this.Song = new System.Windows.Forms.Panel();
             this.Lyric = new System.Windows.Forms.RichTextBox();
+            this.add = new System.Windows.Forms.PictureBox();
+            this.comboBoxPlaylists = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.SongImage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.view)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.Header.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.download)).BeginInit();
             this.panel1.SuspendLayout();
             this.Song.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.add)).BeginInit();
             this.SuspendLayout();
             // 
             // cooo
@@ -199,6 +205,9 @@
             // 
             // Header
             // 
+            this.Header.Controls.Add(this.musicPlayer1);
+            this.Header.Controls.Add(this.add);
+            this.Header.Controls.Add(this.download);
             this.Header.Controls.Add(this.pictureBox1);
             this.Header.Controls.Add(this.day);
             this.Header.Controls.Add(this.view);
@@ -213,7 +222,30 @@
             this.Header.Name = "Header";
             this.Header.Size = new System.Drawing.Size(1222, 250);
             this.Header.TabIndex = 0;
-            this.Header.Paint += new System.Windows.Forms.PaintEventHandler(this.Header_Paint);
+            this.Header.VisibleChanged += new System.EventHandler(this.Header_VisibleChanged);
+            // 
+            // musicPlayer1
+            // 
+            this.musicPlayer1.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
+            this.musicPlayer1.BackColor = System.Drawing.Color.Transparent;
+            this.musicPlayer1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.musicPlayer1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(92)))), ((int)(((byte)(96)))), ((int)(((byte)(93)))));
+            this.musicPlayer1.Location = new System.Drawing.Point(680, 64);
+            this.musicPlayer1.Name = "musicPlayer1";
+            this.musicPlayer1.Size = new System.Drawing.Size(500, 140);
+            this.musicPlayer1.TabIndex = 4;
+            // 
+            // download
+            // 
+            this.download.BackColor = System.Drawing.Color.Transparent;
+            this.download.Image = ((System.Drawing.Image)(resources.GetObject("download.Image")));
+            this.download.Location = new System.Drawing.Point(572, 210);
+            this.download.Name = "download";
+            this.download.Size = new System.Drawing.Size(40, 40);
+            this.download.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.download.TabIndex = 3;
+            this.download.TabStop = false;
+            this.download.Click += new System.EventHandler(this.download_Click);
             // 
             // girlBtt
             // 
@@ -315,11 +347,32 @@
             this.Lyric.TabIndex = 0;
             this.Lyric.Text = "";
             // 
+            // add
+            // 
+            this.add.BackColor = System.Drawing.Color.Transparent;
+            this.add.Image = ((System.Drawing.Image)(resources.GetObject("add.Image")));
+            this.add.Location = new System.Drawing.Point(631, 209);
+            this.add.Name = "add";
+            this.add.Size = new System.Drawing.Size(40, 40);
+            this.add.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.add.TabIndex = 3;
+            this.add.TabStop = false;
+            this.add.Click += new System.EventHandler(this.add_Click);
+            // 
+            // comboBoxPlaylists
+            // 
+            this.comboBoxPlaylists.FormattingEnabled = true;
+            this.comboBoxPlaylists.Location = new System.Drawing.Point(550, 255);
+            this.comboBoxPlaylists.Name = "comboBoxPlaylists";
+            this.comboBoxPlaylists.Size = new System.Drawing.Size(121, 24);
+            this.comboBoxPlaylists.TabIndex = 5;
+            // 
             // MusicInfo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
+            this.Controls.Add(this.comboBoxPlaylists);
             this.Controls.Add(this.boyBtt);
             this.Controls.Add(this.Song);
             this.Controls.Add(this.girlBtt);
@@ -330,14 +383,17 @@
             this.Name = "MusicInfo";
             this.Size = new System.Drawing.Size(1222, 700);
             this.Load += new System.EventHandler(this.MusicInfo_Load);
+            this.VisibleChanged += new System.EventHandler(this.MusicInfo_VisibleChanged);
             ((System.ComponentModel.ISupportInitialize)(this.SongImage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.view)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.Header.ResumeLayout(false);
             this.Header.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.download)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.Song.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.add)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -366,5 +422,9 @@
         private System.Windows.Forms.Panel Song;
         private System.Windows.Forms.RichTextBox Lyric;
         private System.Windows.Forms.TextBox cmt;
+        private System.Windows.Forms.PictureBox download;
+        private MusicPlayer musicPlayer1;
+        private System.Windows.Forms.PictureBox add;
+        private System.Windows.Forms.ComboBox comboBoxPlaylists;
     }
 }

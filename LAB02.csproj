@@ -70,6 +70,18 @@
     <Compile Include="User Control\ENCategory.Designer.cs">
       <DependentUpon>ENCategory.cs</DependentUpon>
     </Compile>
+    <Compile Include="User Control\Favorite.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Control\Favorite.Designer.cs">
+      <DependentUpon>Favorite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Control\History.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Control\History.Designer.cs">
+      <DependentUpon>History.cs</DependentUpon>
+    </Compile>
     <Compile Include="User Control\Main.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -81,6 +93,12 @@
     </Compile>
     <Compile Include="User Control\MusicInfo.Designer.cs">
       <DependentUpon>MusicInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Control\Playlist.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Control\Playlist.Designer.cs">
+      <DependentUpon>Playlist.cs</DependentUpon>
     </Compile>
     <Compile Include="User Control\SearchBox.cs">
       <SubType>UserControl</SubType>
@@ -136,11 +154,20 @@
     <EmbeddedResource Include="User Control\ENCategory.resx">
       <DependentUpon>ENCategory.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="User Control\Favorite.resx">
+      <DependentUpon>Favorite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Control\History.resx">
+      <DependentUpon>History.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="User Control\Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="User Control\MusicInfo.resx">
       <DependentUpon>MusicInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Control\Playlist.resx">
+      <DependentUpon>Playlist.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="User Control\SearchBox.resx">
       <DependentUpon>SearchBox.cs</DependentUpon>
@@ -173,6 +200,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

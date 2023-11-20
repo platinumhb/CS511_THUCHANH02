@@ -20,17 +20,47 @@ namespace LAB02.User_Control
     {
         public object JsonConvert { get; private set; }
         public event Action<int> SongClicked;
+        public event Action<bool, int> LoveChanged;
+        public string favorite_path = "D:/STUDYING/3rd Year 2023_2024/CS551 - Ngôn ngữ lập trình C#/CS551_THUCHANH02/LAB02/Database/Favorite.txt";
+
         public int index;
+        public bool loved_check;
         public SongDemo(int i)
         {
-            InitializeComponent();
+            InitializeComponent();            
             this.index = i;
+
+            // Đọc tất cả các dòng từ tệp tin
+            string[] lines = File.ReadAllLines(favorite_path);
+            // Kiểm tra xem đối tượng đã tồn tại hay chưa
+            bool objectExists = Array.Exists(lines, line => line.Trim() == this.index.ToString());
+       
+
+            if (objectExists)
+            {
+                // Nếu đối tượng đã tồn tại, thêm vào tệp tin
+                this.loved_check = true;
+            }
+            else 
+                this.loved_check = false;
+
+            
+     
+            if(loved_check == true)
+            {
+                this.NotLovePB.Visible = false;
+                this.LovePB.Visible = true;
+            }
+            else
+            { 
+                this.LovePB.Visible = false;
+                this.NotLovePB.Visible = true;
+            } 
+            
         }
 
         private void SongDemo_Load(object sender, EventArgs e)
         {
-            // Đường dẫn đến tệp JSON
-            
             string dirPath = "D:/STUDYING/3rd Year 2023_2024/CS551 - Ngôn ngữ lập trình C#/CS551_THUCHANH02/LAB02/Database/SongInfo/";
             // Đường dẫn tới thư mục chứa các tệp JSON
 
@@ -71,12 +101,16 @@ namespace LAB02.User_Control
         {
             this.NotLovePB.Visible = false;
             this.LovePB.Visible = true;
+            loved_check = true;
+            LoveChanged?.Invoke(this.loved_check, this.index);
         }
 
         private void LovePB_Click(object sender, EventArgs e)
         {
             this.LovePB.Visible = false;
             this.NotLovePB.Visible = true;
+            loved_check = false;
+            LoveChanged?.Invoke(this.loved_check, this.index);
         }
 
         private void SongImage_Click(object sender, EventArgs e)
@@ -90,6 +124,11 @@ namespace LAB02.User_Control
         }
 
         private void Singer_Click(object sender, EventArgs e)
+        {
+            SongClicked?.Invoke(this.index);
+        }
+
+        private void SongDemo_Click(object sender, EventArgs e)
         {
             SongClicked?.Invoke(this.index);
         }

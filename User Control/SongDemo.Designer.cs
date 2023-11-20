@@ -52,7 +52,7 @@
             // 
             // SongName
             // 
-            this.SongName.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SongName.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SongName.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.SongName.Location = new System.Drawing.Point(147, 61);
             this.SongName.Name = "SongName";
@@ -64,11 +64,11 @@
             // Singer
             // 
             this.Singer.AutoSize = true;
-            this.Singer.Font = new System.Drawing.Font("Microsoft Tai Le", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Singer.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Singer.ForeColor = System.Drawing.SystemColors.Window;
             this.Singer.Location = new System.Drawing.Point(147, 35);
             this.Singer.Name = "Singer";
-            this.Singer.Size = new System.Drawing.Size(72, 22);
+            this.Singer.Size = new System.Drawing.Size(71, 19);
             this.Singer.TabIndex = 1;
             this.Singer.Text = "GDucky";
             this.Singer.Click += new System.EventHandler(this.Singer_Click);
@@ -110,6 +110,7 @@
             this.Name = "SongDemo";
             this.Size = new System.Drawing.Size(400, 148);
             this.Load += new System.EventHandler(this.SongDemo_Load);
+            this.Click += new System.EventHandler(this.SongDemo_Click);
             ((System.ComponentModel.ISupportInitialize)(this.SongImage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NotLovePB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.LovePB)).EndInit();

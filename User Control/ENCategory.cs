@@ -16,6 +16,10 @@ namespace LAB02.User_Control
         public event Action<int> SongClicked;
         public int clicked_index;
         //public int temp;
+
+        public event Action<bool, int> LoveChanged;
+        public int love_index;
+        public bool love_check;
         public ENCategory()
         {
             int n = 30;
@@ -26,6 +30,7 @@ namespace LAB02.User_Control
                 song.Name = i.ToString();
 
                 song.SongClicked += song_clicked;
+                song.LoveChanged += love_changed;
                 // Thêm Label vào FlowLayoutPanel
                 this.Category.Controls.Add(song);
             }      
@@ -40,7 +45,12 @@ namespace LAB02.User_Control
             this.clicked_index = index;
             this.SongClicked?.Invoke(clicked_index);
         }
-
+        private void love_changed(bool love_check, int index)
+        {
+            this.love_index = index;
+            this.love_check = love_check;
+            this.LoveChanged?.Invoke(love_check, love_index);
+        }
 
     }
 }

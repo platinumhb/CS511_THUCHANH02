@@ -8,7 +8,12 @@
 8. Một phút
 9. Chờ đợi có đáng sợ
 10. Chẳng nói nên lời
-
+11. Đôi bờ
+12. Nàng thơ
+13. Thật bất ngờ
+14. Muốn khóc thật to
+15. Gió vẫn hát
+16. Vết mưa
 17. High hopes
 18. See you again
 19. Stay - zedd
@@ -19,7 +24,7 @@
 24. Anti-Hero
 25. Blank space
 26. Long Live
-27. Anti-Hero
+27. Sugar
 28. How long
 29. That's hilarious
 30. Attention
@@ -30,9 +35,10 @@
 
 1242 700
 
-main page
+main page .
 Search 
-Song info
+Song info .
 Tạo playlist + tim + download
-bài hát đã nghe
-tính năng phụ, musicplayer
+bài hát đã nghe 
+tính năng phụ, musicplayer.
+thêm vụ quay lại .

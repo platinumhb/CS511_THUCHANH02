@@ -21,3 +21,8 @@ D:\STUDYING\3rd Year 2023_2024\CS551 - Ngôn ngữ lập trình C#\CS551_THUCHAN
 D:\STUDYING\3rd Year 2023_2024\CS551 - Ngôn ngữ lập trình C#\CS551_THUCHANH02\LAB02\obj\Debug\LAB02.User_Control.Main.resources
 D:\STUDYING\3rd Year 2023_2024\CS551 - Ngôn ngữ lập trình C#\CS551_THUCHANH02\LAB02\obj\Debug\LAB02.Test.resources
 D:\STUDYING\3rd Year 2023_2024\CS551 - Ngôn ngữ lập trình C#\CS551_THUCHANH02\LAB02\obj\Debug\LAB02.User_Control.uctText.resources
+D:\STUDYING\3rd Year 2023_2024\CS551 - Ngôn ngữ lập trình C#\CS551_THUCHANH02\LAB02\obj\Debug\LAB02.User_Control.Favorite.resources
+D:\STUDYING\3rd Year 2023_2024\CS551 - Ngôn ngữ lập trình C#\CS551_THUCHANH02\LAB02\obj\Debug\LAB02.User_Control.History.resources
+D:\STUDYING\3rd Year 2023_2024\CS551 - Ngôn ngữ lập trình C#\CS551_THUCHANH02\LAB02\obj\Debug\LAB02.User_Control.Playlist.resources
+D:\STUDYING\3rd Year 2023_2024\CS551 - Ngôn ngữ lập trình C#\CS551_THUCHANH02\LAB02\obj\Debug\Interop.WMPLib.dll
+D:\STUDYING\3rd Year 2023_2024\CS551 - Ngôn ngữ lập trình C#\CS551_THUCHANH02\LAB02\obj\Debug\LAB02.csproj.ResolveComReference.cache
